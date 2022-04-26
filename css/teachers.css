@@ -17,8 +17,7 @@ body {
     width: 30%;
     top: 30%;
     color: #FFFFFF;
-    margin-left: 70px;
-    left: 30px;
+    padding-left: 50px;
 }
 
 .main__teacher__container--text>h1 {
@@ -52,6 +51,7 @@ body {
 
 .main__teacher__container--list--element {
     width: 20%;
+    height: auto;
     margin: 0% 1%;
     margin-bottom: 20px;
     display: flex;
@@ -62,7 +62,7 @@ body {
     background-color: #FAFAFA;
     border-radius: 0 20px 0 20px;
     padding: 15px;
-    padding-bottom: 0;
+    padding-bottom: 10px;
     box-shadow: inset 50px 0 20px #E5E5E5;
     }
 
@@ -226,5 +226,20 @@ body {
     }
     to {
         top: 170px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+
+    .navbar {
+        top: 40px;
+    }
+
+    .main__teacher__info--hide{
+        top: 110px;
+    }
+
+    .main__teacher__info--show{
+        top: 110px;
     }
 }

@@ -53,8 +53,8 @@ body{
 }
 
 .navbar--title--image {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 100%;
     margin-right: 10px;
 }
 
@@ -325,7 +325,7 @@ body{
 .events__list--element{
     margin: 0 10px;
     width: 372px;
-    height: 300px;
+    height: auto;
     background-color: #FFFFFF;
     border-radius: 5px;
     box-shadow: 0px 6px 20px -3px rgba(0,0,0,0.62);
@@ -334,14 +334,13 @@ body{
 .events__list--element--image{
     width: 100%;
     height: 195px;
-    overflow: hidden;
     position: relative;
     border-radius: 5px 5px 0 0;
 }
 
 .events__list--element--image > img{
     width: 100%;
-    height: 140%;
+    height: 100%;
 }
 
 .events__list--element--image--hour{
@@ -357,20 +356,20 @@ body{
 
 .events__list--element--text{
     width: 100%;
-    height: 105px;
+    height: auto;
     display: inline-flex;
-    padding: 10px 15px;
+    padding: 15px;
 }
 
 .events__list--element--text--date{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 .events__list--element--text--information{
     margin-left: 10px;
+    text-align: justify;
 }
 
 .events__list--element--text--information--title{
@@ -395,4 +394,58 @@ body{
     border-width: 70px 40em 0 80em;
     background-color: #0D0D0C;
     border-color: transparent #F3EAD0 transparent #F3EAD0;
+}
+
+@media only screen and (max-width: 1600px) {
+    .main__container--bottom_dates--image{
+        width: 450px;
+        height: 470px;
+    }
+
+    .navbar--title--image {
+        width: 65px;
+        height: 65px;
+    }
+
+    .head__contact {
+        height: 40px;
+    }
+
+    .navbar{
+        height: 70px;
+    }
+
+    .main__container--text--subtitle{
+        font-size: 2rem;
+    }
+
+    .main__container--circle_one{
+        width: 360px;
+        height: 360px;
+        bottom: 200px;
+    }
+
+    .main__container--circle_two{
+        width: 70px;
+        height: 70px;
+        right: 300px;
+        bottom: 570px;
+    }
+    
+    .main__container--circle_three{
+        width: 35px;
+        height: 35px;
+        right: 250px;
+        bottom: 550px;
+    }
+    
+    .main__container--circle_four{
+        width: 50px;
+        height: 50px;
+        right: 680px;
+    }
+
+    .events__list{
+        padding: 5%;
+    }
 }
