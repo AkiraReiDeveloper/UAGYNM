@@ -88,10 +88,14 @@ body{
     color: #FFFFFF;
 }
 
-.navbar--options--list li:hover > ul {
+.navbar--options--list > li:hover > ul {
     visibility: visible;
     top: 25px;
     transition: all .5s;
+}
+
+.navbar--options--list > li:hover > ul > li{
+    position: relative;
 }
 
 .navbar--options--sublist {
@@ -106,6 +110,22 @@ body{
 
 .navbar--options--sublist li a:hover{
     color: #022060;
+}
+
+.navbar--options--sublist > li:hover > ul {
+    visibility: visible;
+    top: 0;
+    transition: all .5s;
+}
+
+.navbar--options--sublist--sublist{
+    position: absolute;
+    left: 100%;
+    top: 25px;
+    background-color: #213E7B;
+    list-style-type: none;
+    width: max-content;
+    visibility: hidden;
 }
 
 .main__container {

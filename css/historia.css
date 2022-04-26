@@ -18,7 +18,7 @@
     width: 100%;
     height: 100%;
     border-style: solid;
-    border-width: 0 100em 5em 15em;
+    border-width: 0 110em 5em 15em;
     background-color: #F3EAD0;
     border-color: transparent #022060 transparent #022060;
 }
@@ -92,7 +92,7 @@
     margin-top: 50px;
 }
 
-.content__mision-vision--info > h2 {
+.content__mision-vision--info h2 {
     font-size: 2.5rem;
 }
 
@@ -109,7 +109,47 @@
     width: 100%;
     height: 100%;
     border-style: solid;
-    border-width: 5em 30em 0 80em;
+    border-width: 5em 30em 0 90em;
     background-color: #F3EAD0;
     border-color: transparent #022060 transparent #022060;
+}
+
+.content__mision-vision--info--vision, .content__mision-vision--info--mision{
+    width: 100%;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.content__mision-vision--info--vision--image, .content__mision-vision--info--mision--image{
+    width: 40%;
+}
+
+.content__mision-vision--info--vision--text, .content__mision-vision--info--mision--text{
+    width: 60%;
+}
+
+.transform__historia3 {
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+}
+
+.transform__historia3--figure {
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-width: 0 110em 5em 15em;
+    background-color: #F3EAD0;
+    border-color: transparent #022060 transparent #022060;
+}
+
+.content__valores{
+    padding: 50px 15%;
+}
+
+.content__valores h2{
+    font-size: 2.5em;
 }
