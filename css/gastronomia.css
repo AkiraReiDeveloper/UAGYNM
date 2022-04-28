@@ -1,0 +1,138 @@
+.gastro__header {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    background-color: #022060;
+    overflow: hidden;
+    display: flex;
+}
+
+.gastro__header--image figure {
+    width: 520px;
+    height: auto;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+
+.gastro__header--image figure>img {
+    width: 100%;
+    height: auto;
+    animation: fade-bottom 1s ease-out;
+}
+
+.gastro__header--title h1 {
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    color: #FFFFFF;
+    font-size: 5em;
+    animation: fade-bottom 1s ease-out;
+}
+
+.gastro__header--one {
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #213E7B;
+    right: 200px;
+    bottom: 20px;
+    animation: fade-top 1s ease-out;
+}
+
+.gastro__header--two {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #213E7B;
+    right: 55%;
+    bottom: 25%;
+    animation: fade-bottom 1s ease-out;
+}
+
+.gastro__header--three {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #213E7B;
+    right: 45%;
+    bottom: 50%;
+    animation: fade-top 1s ease-out;
+}
+
+.gastro__header--four {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #213E7B;
+    left: 10%;
+    bottom: 0;
+    animation: fade-top 1s ease-out;
+}
+
+.content__gastro{
+    width: 100%;
+    padding: 70px 5%;
+    display: flex;
+}
+
+.content__gastro--section{
+    width: 75%;
+    background-color: #FFFFFF;
+    padding: 50px 5%;
+    box-shadow: 0px 4px 11px -4px #000000;
+    text-align: justify;
+}
+
+.content__gastro--section img{
+    width: 100%;
+    
+}
+
+.content__gastro--aside{
+    position: sticky;
+    top: 100px;
+    width: 20%;
+    height: fit-content;
+    margin-left: 5%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 11px -4px #000000;
+}
+
+.content__gastro--aside a{
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #0E0E14;
+    padding: 5%;
+}
+
+.content__gastro--aside a:hover{
+    background-color: #E4E4E4;
+}
+
+.content__gastro--section--plan{
+    display: flex;
+    text-align: left;
+    width: 100%;
+}
+
+.content__gastro--section--plan--left{
+    width: 50%;
+    margin-right: 25px;
+}
+
+.content__gastro--section--plan--right{
+    width: 50%;
+    margin-left: 25px;
+}

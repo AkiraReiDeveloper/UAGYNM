@@ -145,22 +145,6 @@
     border-color: transparent #022060 transparent #022060;
 }
 
-.expose.active {
-    opacity: 1;
-}
-
-.active.fade-left {
-    animation: fade-left 1s ease-in;
-}
-
-.active.fade-right {
-    animation: fade-right 1s ease-in;
-}
-
-.active.fade-bottom {
-    animation: fade-bottom 1s ease-in;
-}
-
 .content__mision-vision--info--vision, .content__mision-vision--info--mision {
     position: relative;
     opacity: 0;
@@ -197,6 +181,7 @@
 
 .content__valores {
     padding: 50px 15%;
+    opacity: 0;
 }
 
 .content__valores h2 {
@@ -205,5 +190,5 @@
 
 .content__valores--list {
     text-align: justify;
-    padding: 10px 3%;
+    padding: 10px 0;
 }

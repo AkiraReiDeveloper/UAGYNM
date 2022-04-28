@@ -311,6 +311,22 @@ body{
     bottom: 500px;
 }
 
+.expose.active {
+    opacity: 1;
+}
+
+.active.fade-left {
+    animation: fade-left 1s ease-in;
+}
+
+.active.fade-right {
+    animation: fade-right 1s ease-in;
+}
+
+.active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+}
+
 @keyframes imageshow {
     from {
         bottom: -10px;
@@ -356,6 +372,18 @@ body{
 @keyframes fade-bottom {
     0% {
         transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-top {
+    0% {
+        transform: translateY(-100px);
         opacity: 0;
     }
 
