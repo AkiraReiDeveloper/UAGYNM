@@ -1,0 +1,60 @@
+.normal__header{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color: #022060;
+    overflow: hidden;
+}
+
+.normal__header--one {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #213E7B;
+    right: 20%;
+    top: 30%;
+    animation: fade-bottom 1s ease-out;
+}
+
+.normal__header--two {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #213E7B;
+    right: 55%;
+    bottom: 15%;
+    animation: fade-bottom 1s ease-out;
+}
+
+.normal__header--three {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #213E7B;
+    right: 30%;
+    bottom: 5%;
+    animation: fade-top 1s ease-out;
+}
+
+.normal__header--four {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #213E7B;
+    left: 10%;
+    bottom: 20%;
+    animation: fade-top 1s ease-out;
+}
+
+.normal__header--title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: #FFFFFF;
+    font-size: 2.5em;
+}
