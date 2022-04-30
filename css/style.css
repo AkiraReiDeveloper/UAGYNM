@@ -42,7 +42,7 @@ body{
     display: inline-flex;
     width: 100%;
     height: 100px;
-    background-color: #022060;
+    /*background-color: #022060;*/
     align-items: center;
 }
 
@@ -140,7 +140,7 @@ body{
     height: 605px;
     right: 200px;
     bottom: 170px;
-    animation: imageshow 2.5s;
+    animation: fade-bottom 1s ease-out;
 }
 
 .main__container--bottom_dates--image > img{
@@ -159,7 +159,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    animation: dateshow 2s;
 }
 
 .main__container--bottom_dates--content{
@@ -225,7 +224,7 @@ body{
 }
 
 .main__container--text{
-    width: 35%;
+    width: 45%;
     position: absolute;
     top: 25%;
     color: #FFFFFF;
@@ -266,6 +265,7 @@ body{
     background-color: #213E7B;
     right: 300px;
     bottom: 220px;
+    animation: fade-top 1.2s ease-out;
 }
 
 .main__container--image{
@@ -274,6 +274,7 @@ body{
     position: absolute;
     right: 50px;
     top: 200px;
+    animation: fade-bottom 1.8s ease-out;
 }
 
 .main__container--image > img{
@@ -289,6 +290,7 @@ body{
     background-color: #213E7B;
     right: 265px;
     bottom: 700px;
+    animation: fade-top 1.4s ease-out;
 }
 
 .main__container--circle_three{
@@ -299,6 +301,7 @@ body{
     background-color: #213E7B;
     right: 180px;
     bottom: 670px;
+    animation: fade-bottom 1.7s ease-out;
 }
 
 .main__container--circle_four{
@@ -309,6 +312,7 @@ body{
     background-color: #213E7B;
     right: 800px;
     bottom: 500px;
+    animation: fade-bottom 1.9s ease-out;
 }
 
 .expose.active {
@@ -325,24 +329,6 @@ body{
 
 .active.fade-bottom {
     animation: fade-bottom 1s ease-in;
-}
-
-@keyframes imageshow {
-    from {
-        bottom: -10px;
-    }
-    to {
-        bottom:170px;
-    }
-}
-
-@keyframes dateshow {
-    from {
-        bottom: -170px;
-    }
-    to {
-        bottom:0;
-    }
 }
 
 @keyframes fade-left {
@@ -510,7 +496,7 @@ body{
     }
 
     .main__container--text--subtitle{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .main__container--circle_one{

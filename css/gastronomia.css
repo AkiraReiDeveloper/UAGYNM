@@ -12,13 +12,13 @@
     height: auto;
     position: absolute;
     left: 150px;
-    top: 150px;
+    bottom: -10px;
 }
 
 .gastro__header--image figure>img {
     width: 100%;
     height: auto;
-    animation: fade-bottom 1s ease-out;
+    animation: fade-bottom 1.2s ease-out;
 }
 
 .gastro__header--title h1 {
@@ -27,7 +27,6 @@
     right: 15%;
     color: #FFFFFF;
     font-size: 5em;
-    animation: fade-bottom 1s ease-out;
 }
 
 .gastro__header--one {
@@ -38,7 +37,7 @@
     background-color: #213E7B;
     right: 200px;
     bottom: 20px;
-    animation: fade-top 1s ease-out;
+    animation: fade-top 1.4s ease-out;
 }
 
 .gastro__header--two {
@@ -49,7 +48,7 @@
     background-color: #213E7B;
     right: 55%;
     bottom: 25%;
-    animation: fade-bottom 1s ease-out;
+    animation: fade-bottom 1.6s ease-out;
 }
 
 .gastro__header--three {
