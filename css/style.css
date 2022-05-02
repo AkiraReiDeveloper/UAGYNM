@@ -46,6 +46,13 @@ body{
     align-items: center;
 }
 
+.navbar--options--menu{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 2em;
+    display: none;
+}
+
 .navbar--title {
     margin-left: 50px;
     display: inline-flex;
@@ -528,4 +535,67 @@ body{
     .events__list{
         padding: 5%;
     }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .navbar--options--list{
+        display: none;
+    }
+
+    .head__contact{
+        display: none;
+    }
+
+    .navbar--options--menu{
+        display: flex;
+        margin-right: 20px;
+    }
+
+    .navbar--options{
+        position: static;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .navbar--title{
+        margin-left: 20px;
+    }
+
+    .navbar{
+        background-color: #BE9109;
+    }
+
+    .navbar--options--menu:active ~ ul{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 100%;
+        left: -30px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar--options--list li{
+        width: 100%;
+        background-color: #213E7B;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .navbar--options--list > li:hover ul{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        background-color: #BE9109;
+    }
+    
 }
