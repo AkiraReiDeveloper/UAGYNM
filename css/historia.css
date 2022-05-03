@@ -78,10 +78,14 @@
     margin-left: 30px;
 }
 
-.content__historia--info1--image>img {
+.content__historia--info1--image img {
     width: 100%;
     height: auto;
     border-radius: 2px;
+}
+
+.content__historia--info1--image figure {
+    text-align: center;
 }
 
 .content__historia--info2 {
@@ -191,4 +195,106 @@
 .content__valores--list {
     text-align: justify;
     padding: 10px 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .transform__historia1 {
+        display: none;
+    }
+
+    .header__historia {
+        display: flex;
+        flex-direction: column;
+        height: 40%;
+    }
+
+    .header__historia--text {
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    .header__historia--image {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__historia--image--content {
+        width: 50%;
+        height: auto;
+    }
+
+    .content__historia h2 {
+        font-size: 1.2rem;
+    }
+
+    .content__historia {
+        padding: 20px 10px;
+        margin: 0;
+    }
+
+    .content__historia--info1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content__historia--info2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .content__historia--info1--text, .content__historia--info2--text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .content__mision-vision {
+        padding: 20px 10px;
+    }
+
+    .content__historia--info2--image, .content__historia--info1--image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding-top: 20px;
+    }
+
+    .content__mision-vision--title {
+        margin-top: 0;
+    }
+    
+    .content__mision-vision--info h2 {
+        font-size: 1.2rem;
+    }
+
+    .content__mision-vision--info--vision, .content__mision-vision--info--mision {
+        position: relative;
+        opacity: 0;
+        width: 100%;
+        display: flex;
+        margin-bottom: 40px;
+    }
+    
+    .content__mision-vision--info--vision--image, .content__mision-vision--info--mision--image {
+        width: 0;
+    }
+    
+    .content__mision-vision--info--vision--text, .content__mision-vision--info--mision--text {
+        width: 100%;
+    }
+
+    .content__valores {
+        padding: 20px 15px;
+    }
+    
+    .content__valores h2 {
+        font-size: 1.2em;
+    }
 }

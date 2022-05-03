@@ -36,4 +36,31 @@ function reveal() {
     }
 }
 
+function myNavbar() {
+    var x = document.getElementById("menu");
+    if (x.className === "navbar--options--list") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbar--options--list";
+    }
+  }
+
+  function myNavbarSubList(id) {
+    var x = document.getElementById("sub-menu-"+id);
+    if (x.className === "navbar--options--sublist") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbar--options--sublist";
+    }
+  }
+
+  function myDateActive(id) {
+    var x = document.getElementById("date-active-"+id);
+    if (x.className === "fas fa-angle-down") {
+      x.className = "fas fa-angle-up";
+    } else {
+      x.className = "fas fa-angle-down";
+    }
+  }
+
 window.addEventListener("scroll", reveal);

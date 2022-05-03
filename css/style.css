@@ -168,6 +168,10 @@ body{
     justify-content: space-between;
 }
 
+.main__container--bottom_dates--content--float{
+    display: none;
+}
+
 .main__container--bottom_dates--content{
     width: 400px;
     max-height: 120px;
@@ -182,6 +186,7 @@ body{
     align-items: center;
     width: 400px;
     height: 120px;
+    overflow: hidden;
 }
 
 .dates:hover > .main__container--bottom_dates--content{
@@ -538,6 +543,9 @@ body{
 }
 
 @media only screen and (max-width: 1000px) {
+    .header{
+        position: relative;
+    }
 
     .navbar--options--list{
         display: none;
@@ -550,6 +558,7 @@ body{
     .navbar--options--menu{
         display: flex;
         margin-right: 20px;
+        font-size: 1.5rem;
     }
 
     .navbar--options{
@@ -565,11 +574,22 @@ body{
         margin-left: 20px;
     }
 
-    .navbar{
-        background-color: #BE9109;
+    .navbar--title--image{
+        width: 35px;
+        height: 35px;
     }
 
-    .navbar--options--menu:active ~ ul{
+    .navbar{
+        position: relative;
+        background-color: #BE9109;
+        height: 50px;
+    }
+
+    .navbar--options--list a{
+        padding: 10px 15px;
+    }
+
+    .navbar--options--list.responsive{
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -580,22 +600,158 @@ body{
         padding: 0;
     }
 
-    .navbar--options--list li{
+    .navbar--options--list > li{
         width: 100%;
         background-color: #213E7B;
-        padding: 10px 20px;
         display: flex;
         flex-direction: column;
-        height: fit-content;
     }
 
-    .navbar--options--list > li:hover ul{
+    .navbar--options--sublist{
+        display: none;
+    }
+
+    .navbar--options--list > li:hover > ul {
+        visibility: visible;
+        top: 0;
+        transition: all 0s;
+    }
+
+    .navbar--options--sublist.responsive{
         position: relative;
         display: flex;
         flex-direction: column;
         width: 100%;
-        
         background-color: #BE9109;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        color: #FFFFFF;
+        visibility: visible;
+    }
+
+    .navbar--options--sublist > li{
+        position: relative;
+        display: flex;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #566A95;
+        top: 0;
+    }
+
+    .main__container{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        overflow: hidden;
     }
     
+    .main__container--text{
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+
+    .main__container--text--title{
+        margin-bottom: 10px;
+        
+    }
+    
+    .main__container--text--subtitle{
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .main__container--text--info{
+        margin-bottom: 0;
+    }
+    
+    .main__container--text--button{
+        padding: 10px 20px; 
+        background-color: #FFFFFF;
+        width: fit-content;
+        border-radius: 30px;
+    }
+
+    .main__container--bottom_dates--image{
+        position: relative;
+        width: 70%;
+        height: auto;
+        left: 50%;
+        bottom: -10px;
+        transform: translate(-50%, 0%);
+        animation: none;
+    }
+
+    .main__container--bottom_dates{
+        padding: 10px 0;
+        position: relative;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__container--bottom_dates--content--float{
+        position: absolute;
+        display: block;
+        right: 10px;
+        font-size: 1.2rem;
+        color: #FFFFFF;
+    }
+
+    .main__container--bottom_dates--content{
+        width: 100%;
+        border: solid 1px #BE9109;
+    }
+    
+    .main__container--bottom_dates > *{
+        width: 100%;
+        height: fit-content;
+        position: relative;
+    }
+    
+    .dates:hover > .main__container--bottom_dates--content{
+        position: relative;
+        top: 0;
+        transition: max-height .5s ease-in;
+    }
+
+    .main__container--circle_one{
+        width: 260px;
+        height: 260px;
+        left: 30px;
+        top: 300px;
+    }
+    
+    .main__container--image{
+        width: 150px;
+        height: 200px;
+        right: 20px;
+        top: 250px;
+    }
+    
+    .main__container--circle_two{
+        right: 65px;
+        top: 70px;
+    }
+    
+    .main__container--circle_three{
+        left: 80px;
+        top: 270px;
+    }
+    
+    .main__container--circle_four{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        border-radius: 100%;
+        background-color: #213E7B;
+        right: 800px;
+        bottom: 500px;
+        animation: fade-bottom 1.9s ease-out;
+    }
 }

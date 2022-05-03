@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/scripts.js"></script>
 </head>
 
 <body>
@@ -29,11 +30,11 @@
                 </a>
             </div>
             <div class="navbar--options">
-                <a class="navbar--options--menu" href="#"><i class="fas fa-bars"></i></a>
-                <ul class="navbar--options--list">
+                <a class="navbar--options--menu" onclick="myNavbar()" href="javascript:void(0);"><i class="fas fa-bars"></i></a>
+                <ul class="navbar--options--list" id="menu">
                     <li>
-                        <a href="./historia.html">Unidad Académica</a>
-                        <ul class="navbar--options--sublist">
+                        <a onclick="myNavbarSubList(1)" href="javascript:void(0);">Unidad Académica</a>
+                        <ul class="navbar--options--sublist" id="sub-menu-1">
                             <li><a href="historia.html#historia">Historia</a></li>
                             <li><a href="#">Misión y Visión</a></li>
                             <li>
@@ -61,15 +62,15 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Oferta Educativa</a>
-                        <ul class="navbar--options--sublist">
+                        <a onclick="myNavbarSubList(2)" href="javascript:void(0);">Oferta Educativa</a>
+                        <ul class="navbar--options--sublist" id="sub-menu-2">
                             <li><a href="./gastronomia.html">Gastronomía</a></li>
                             <li><a href="./nutricion.html">Nutrición</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Alumnos</a>
-                        <ul class="navbar--options--sublist">
+                        <a onclick="myNavbarSubList(3)" href="javascript:void(0);">Alumnos</a>
+                        <ul class="navbar--options--sublist" id="sub-menu-3">
                             <li><a href="https://siia.uasnet.mx/alumnos/">Sistema de alumnos</a></li>
                             <li><a href="#">Listado de creditos extracurriculares</a></li>
                             <li><a href="https://siia.uasnet.mx/padres/">Consulta académica para padres y tutores</a></li>
@@ -80,14 +81,14 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Docentes</a>
-                        <ul class="navbar--options--sublist">
+                        <a onclick="myNavbarSubList(4)" href="javascript:void(0);">Docentes</a>
+                        <ul class="navbar--options--sublist" id="sub-menu-4">
                             <li><a href="teachers.html">Planta docente</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Vinculación</a>
-                        <ul class="navbar--options--sublist">
+                        <a onclick="myNavbarSubList(5)" href="javascript:void(0);">Vinculación</a>
+                        <ul class="navbar--options--sublist" id="sub-menu-5">
                             <li><a href="#">Practicas profecionales</a></li>
                         </ul>
                     </li>
@@ -112,9 +113,9 @@
                 <div class="main__container--text--info">
                     <p>Se parte de la Unidad Académica de Gastronomía y Nutrición Mazatlán y vive la experiencia</p>
                 </div>
-                <div class="main__container--text--button">
+                <!--<div class="main__container--text--button">
                     <a href="#">Más Información</a>
-                </div>
+                </div>-->
             </div>
             <div class="main__container--bottom_dates--image">
                 <img src="assets/images/students.png" alt="">
@@ -122,6 +123,7 @@
             <div class="main__container--bottom_dates">
                 <div class="dates">
                     <div class="main__container--bottom_dates--content">
+                        <a class="main__container--bottom_dates--content--float" onclick="myDateActive(1)" href="javascript:void(0);"><i class="fas fa-angle-down"  id="date-active-1"></i></a>
                         <div class="main__container--date">
                             <h1>22</h1>
                             <p>Viernes</p>
@@ -150,6 +152,7 @@
                 </div>
                 <div class="dates">
                     <div class="main__container--bottom_dates--content">
+                        <a class="main__container--bottom_dates--content--float" onclick="myDateActive(2)" href="javascript:void(0);"><i class="fas fa-angle-down"  id="date-active-2"></i></a>
                         <div class="main__container--date">
                             <h1>25</h1>
                             <p>Lunes</p>
@@ -178,6 +181,7 @@
                 </div>
                 <div class="dates">
                     <div class="main__container--bottom_dates--content">
+                        <a class="main__container--bottom_dates--content--float" onclick="myDateActive(3)" href="javascript:void(0);"><i class="fas fa-angle-down"  id="date-active-3"></i></a>
                         <div class="main__container--date">
                             <h1>02</h1>
                             <p>Lunes</p>
@@ -212,7 +216,7 @@
         <div class="transform_1">
             <div class="transform_1--figure"></div>
         </div>
-
+        <!--
         <div class="events__list">
             <h2>Próximos Eventos</h2>
             <div class="events__list--elements">
@@ -310,7 +314,7 @@
                 </div>
             </div>
 
-        </div>
+        </div>-->
     </article>
 
 </body>
