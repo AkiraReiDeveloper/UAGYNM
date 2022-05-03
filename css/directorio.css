@@ -10,3 +10,9 @@
     font-weight: 900;
     color: #FFFFFF;
 }
+
+@media only screen and (max-width: 1000px) {
+    .container__directorio{
+        padding-top: 20px;
+    }
+}

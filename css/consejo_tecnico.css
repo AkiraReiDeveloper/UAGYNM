@@ -9,6 +9,7 @@
 .container__consejo > h1, h2{
     color: #FFFFFF;
     padding-bottom: 30px;
+    text-align: center;
 }
 
 .container__consejo--element {
@@ -26,7 +27,7 @@
     padding: 15px;
     padding-bottom: 10px;
     box-shadow: inset 50px 0 20px #E5E5E5;
-    }
+}
 
 .container__consejo--element--image {
     width: 100%;
@@ -141,4 +142,23 @@
     width: 100%;
     color: #FFFFFF;
     text-align: justify;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .container__consejo{
+        padding-top: 20px;
+    }
+
+    .container__consejo--element {
+        width: 47%;
+    }
+
+    .container__consejo--element h1{
+        font-size: 1rem;
+    }
+
+    .container__consejo--list{
+        padding: 0;
+    }
 }
