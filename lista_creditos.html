@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/gastronomia.css">
     <link rel="stylesheet" href="./css/normal.css">
+    <link rel="stylesheet" href="./css/creditos.css">
     <script src="js/scripts.js"></script>
 </head>
 
@@ -33,7 +34,8 @@
                 </a>
             </div>
             <div class="navbar--options">
-                <a class="navbar--options--menu" onclick="myNavbar()" href="javascript:void(0);"><i class="fas fa-bars"></i></a>
+                <a class="navbar--options--menu" onclick="myNavbar()" href="javascript:void(0);"><i
+                        class="fas fa-bars"></i></a>
                 <ul class="navbar--options--list" id="menu">
                     <li>
                         <a onclick="myNavbarSubList(1)" href="javascript:void(0);">Unidad Académica</a>
@@ -59,7 +61,8 @@
                         <ul class="navbar--options--sublist" id="sub-menu-3">
                             <li><a href="https://siia.uasnet.mx/alumnos/">Sistema de alumnos</a></li>
                             <li><a href="./lista_creditos.html">Listado de creditos extracurriculares</a></li>
-                            <li><a href="https://siia.uasnet.mx/padres/">Consulta académica para padres y tutores</a></li>
+                            <li><a href="https://siia.uasnet.mx/padres/">Consulta académica para padres y tutores</a>
+                            </li>
                             <li><a href="#">Becas</a></li>
                             <li><a href="https://siia.uasnet.mx/alumnos/">Certificado de estudios</a></li>
                             <li><a href="./titulacion.html">Titulación</a></li>
@@ -95,83 +98,154 @@
     </article>
     <article class="content__gastro">
         <section class="content__gastro--section">
-            <h2 id="que_es">¿Qué es la titulación?</h2><br>
-            <p>Es el proceso por el cual se elige una modalidad para culminar legalmente tus estudios, y es indispensable para tramitar tu Título y Cédula ante la Universidad Autónoma de Sinaloa.
-            </p><br>
-            <h3>Propósitos</h3><br>
-            <ol>
-                <li>Que la matrícula de estudiantes que culminen sus estudios se titulen en un 100%.</li>
-                <li>Convertir este proceso de titulación en una obligación del estudiante.</li>
-                <li>Contribuir a la sociedad con profesionistas ya titulados.</li>
-            </ol><br>
-            <h3>Requisitos</h3><br>
-            <ol>
-                <li>Una vez completados los créditos de la licenciatura, elegir una modalidad.</li>
-                <li>Entregar original y copia de 1) solicitud formal y 2) documentos específicos según modalidad, señalados en el Instructivo de Titulación.</li>
-                <li>Esperar el dictamen que se dará por medio de una carta de la administración.</li>
-            </ol><br>
-            <h2 id="modalidad">Modalidades de Titulación</h2><br>
-            <p>Son varias las opciones y sus requisitos específicos para realizar registro:</p>
-            <ul>
-                <li>Promedio</li>
-                <li>Diplomado</li>
-                <li>Memoria de Servicio Social con rigor Metodológico</li>
-                <li>Tesis</li>
-                <li>Examen General de Conocimientos Externo</li>
-            </ul><br>
-            <h2 id="complementos">Documentos Complementarios</h2><br>
-            <p>Una vez aprobado su registro, entregará los siguientes documentos dependiendo su opción de titulación para continuar el proceso.
-            </p><br>
-            <h3>Promedio</h3><br>
-            <ul>
-                <li>Certificado original y copia</li>
-                <li>Constancia EGEL</li>
-                <li>Constancia TOEFL (400 puntos) original y copia</li>
-                <li>Carta liberación Servicio Social</li>
-                <li>Foto ovalada tamaño credencial</li>
-            </ul><br>
-            <h3>EGEL</h3><br>
-            <ul>
-                <li>Constancia de EGEL</li>
-                <li>Constancia TOEFL (400 puntos) original y copia</li>
-                <li>Carta liberación Servicio Social</li>
-                <li>Foto ovalada tamaño credencial</li>
-            </ul><br>
-            <h3>Diplomado</h3><br>
-            <ul>
-                <li>Diploma original y 1 copia</li>
-                <li>Constancia EGEL</li>
-                <li>Constancia TOEFL (400 puntos) original y copia</li>
-                <li>Carta liberación Servicio Social</li>
-                <li>Foto ovalada tamaño credencial</li>
-            </ul><br>
-            <h3>Memoria con Rigor Metodológico</h3><br>
-            <ul>
-                <li>Carta de aprobación*</li>
-                <li>2 Copias de documento terminado*</li>
-                <li>Solicitud de revisión con propuesta de lectores*</li>
-                <li>Carta de aprobación del director de memoria*</li>
-                <li>Una vez valorada y revisada **</li>
-                <li>8 ejemplares del documento*</li>
-                <li>Constancia EGEL</li>
-                <li>Constancia TOEFL (400 puntos) original y copia</li>
-                <li>Carta liberación Servicio Social</li>
-                <li>Foto ovalada tamaño credencial</li>
-            </ul><br>
-            <h3>Tesis</h3><br>
-            <ul>
-                <li>Solicitar fecha examen replica</li>
-            </ul><br>
-            <h4>Una vez defendida su tesis</h4><br>
-            <ul>
-                <li>Acta de examen de grado más docs.</li>
-            </ul><br>
-            <h4>NOTA: entregados estos documentos se emitirá recibo de NO adeudo a laboratorio ($150) y libro egresados ($90 Control Escolar)</h4>
+            <table class="table">
+                <tr>
+                    <th>ACTIVIDADES DE LIBRE ELECCIÓN</th>
+                    <th>Total de créditos: 20 (VEINTE a cubrir en el trayecto de la formación)</th>
+                </tr>
+                <tr>
+                    <th id="cientificas">ACADÉMICO-CIENTÍFICAS</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Asistencia a eventos académicos como conferencias y paneles organizados por la UA (3 eventos)</td>
+                    <td style="text-align: center;">1</td>
+                </tr>
+                <tr>
+                    <td>Asistencia a eventos académicos como congresos, seminarios nacionales, solo alumnos de 5to, 6to, 7mo, y 8vo (por evento)</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Cursos sobre temas emergentes de la profesión (mínimo 20 horas).</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Presentación de trabajos en congresos nacionales</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Presentación de trabajos en congresos internacionales</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Participación en proyectos de emprendedores</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Participación en concursos de conocimiento nacional e internacional</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Participación en la organización de jornadas académicas (cursos, talleres, seminarios, congresos, etc.).</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Asistencia a verano de investigación científica (Delfín).</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Asistencia a verano de investigación científica</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Asistencia a verano de investigación científica internacional.</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Estancia Académica Corta en el país.</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Estancia Académica Corta en el extranjero.</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Participación como Asesor (a) Par (por cada semestre)</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Colaboración con los docentes en publicaciones científico-académicas.</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Viaje de estudio especializado, autorizado por la escuela.</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Colaborar con docentes en proyecto de investigación, avalados por la instancia correspondiente.</td>
+                    <td>5</td>
+                </tr>
+                <tr id="culturales">
+                    <th>SOCIO-CULTURALES</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Promoción y difusión de valores mediante teatro, guiñol, canto, música, danza, pintura, (por presentación).</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Participar como jefe(a) de grupo (por año).</td>
+                    <td>2</td>
+                </tr>
+
+                <tr>
+                    <td>Participación en actividades de promoción sobre equidad  de género (por actividad).</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Participación en actividades del cuidado y promoción del medio ambiente (por actividad).</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Aprender a tocar instrumentos musicales.</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Organización de actividades culturales.</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Participación en brigadas para población vulnerable</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Participación en brigadas de desastres naturales</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Participación en órganos de cogobierno institucionales (por periodo)</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th id="deportivas">ACTIVIDAD FÍSICA Y DEPORTIVA</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Participación en ligas y torneos deportivos intramuros</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Participación en competencias locales, de carácter deportivo</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Participación en competencias nacionales de carácter deportivo</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Participación en competencias internacionales de carácter deportivo</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Organización de actividades deportivas</td>
+                    <td>2</td>
+                </tr>
+            </table>
         </section>
         <aside class="content__gastro--aside">
-            <a href="#que_es">¿Qué es la titulación?<i class="fas fa-angle-right"></i></a>
-            <a href="#modalida">Modalidades de Titulación<i class="fas fa-angle-right"></i></a>
-            <a href="#complementos">Documentos Complementarios<i class="fas fa-angle-right"></i></a>
+            <a href="#cientificas">Académico Cientificas<i class="fas fa-angle-right"></i></a>
+            <a href="#culturales">Socio Culturales<i class="fas fa-angle-right"></i></a>
+            <a href="#deportivas">Actividad Física y Deportiva<i class="fas fa-angle-right"></i></a>
         </aside>
     </article>
     <footer>
