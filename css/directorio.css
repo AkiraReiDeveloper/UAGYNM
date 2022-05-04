@@ -15,4 +15,8 @@
     .container__directorio{
         padding-top: 20px;
     }
+
+    .container__consejo--element--subtitle > p{
+        font-size: .6rem;
+    }
 }

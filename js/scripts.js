@@ -54,6 +54,15 @@ function myNavbar() {
     }
   }
 
+  function myNavbarSubList2(id) {
+    var x = document.getElementById("sub-menu2-"+id);
+    if (x.className === "navbar--options--sublist--sublist") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbar--options--sublist--sublist";
+    }
+  }
+
   function myDateActive(id) {
     var x = document.getElementById("date-active-"+id);
     if (x.className === "fas fa-angle-down") {

@@ -30,35 +30,24 @@
                 </a>
             </div>
             <div class="navbar--options">
-                <a class="navbar--options--menu" onclick="myNavbar()" href="javascript:void(0);"><i class="fas fa-bars"></i></a>
+                <a class="navbar--options--menu" onclick="myNavbar()" href="javascript:void(0);"><i
+                        class="fas fa-bars"></i></a>
                 <ul class="navbar--options--list" id="menu">
                     <li>
                         <a onclick="myNavbarSubList(1)" href="javascript:void(0);">Unidad Académica</a>
                         <ul class="navbar--options--sublist" id="sub-menu-1">
-                            <li><a href="historia.html#historia">Historia</a></li>
-                            <li><a href="#">Misión y Visión</a></li>
-                            <li>
-                                <a href="#">Normatividad</a>
-                                <ul class="navbar--options--sublist--sublist">
+                            <li><a href="./historia.html#historia">Historia</a></li>
+                            <li><a href="./historia.html#mision-vision">Misión y Visión</a></li>
+                            <li><a onclick="myNavbarSubList2(1)" href="javascript:void(0);">Normatividad</a>
+                                <ul class="navbar--options--sublist--sublist" id="sub-menu2-1">
                                     <li><a href="http://sau.uas.edu.mx/normatividad.htm">Institucional</a></li>
-                                    <li><a href="http://web.uas.edu.mx/includes/nuestraUni/pdf/2009/reglamentoEscolar.pdf">Reglamento Estudiantil Institucional UAS</a></li>
-                                    <li><a href="https://nutricion.uas.edu.mx/wp-content/uploads/2021/06/3.-Reglamento-de-Practicas-Profesionales-UAS-1.pdf">Reglamento de Prácticas Profesionales UAS</a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href="https://drive.google.com/file/d/1jYmuukJhmXgIWMApgE93bTWc5vcJT3Kx/view?usp=sharing">Reglamento de Practicas Profesionales Lic en Nutricion - UAGyNM</a></li>
-                                    <li><a href="http://web.uas.edu.mx/web/pdf/Reglamentos/Reglamento_de_servicio_social.pdf">Reglamento de Servicio Social UAS</a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href="http://web.uas.edu.mx/includes/nuestraUni/pdf/2009/instructivoTitulacion.pdf">Instructivo de Titulación UAS</a></li>
-                                    <li><a href="https://drive.google.com/file/d/12U8xmfS0A0OwpRAzBXxqALGCIj-IE7R4/view?usp=sharing">Reglamento Laboratorio de Cocina</a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
+                                    <li><a href="./normatividad.html">Interna</a></li>
                                 </ul>
                             </li>
-                            <li><a href="consejo_tecnico.html">Consejo Técnico</a></li>
-                            <li><a href="#">Organigrama</a></li>
-                            <li><a href="#">Infraestructura</a></li>
-                            <li><a href="directorio.html">Directorio</a></li>
+                            <li><a href="./consejo_tecnico.html">Consejo Técnico</a></li>
+                            <li><a href="./organigrama.html">Organigrama</a></li>
+                            <li><a href="./infraestructura.html">Infraestructura</a></li>
+                            <li><a href="./directorio.html">Directorio</a></li>
                         </ul>
                     </li>
                     <li>
@@ -72,12 +61,13 @@
                         <a onclick="myNavbarSubList(3)" href="javascript:void(0);">Alumnos</a>
                         <ul class="navbar--options--sublist" id="sub-menu-3">
                             <li><a href="https://siia.uasnet.mx/alumnos/">Sistema de alumnos</a></li>
-                            <li><a href="#">Listado de creditos extracurriculares</a></li>
-                            <li><a href="https://siia.uasnet.mx/padres/">Consulta académica para padres y tutores</a></li>
+                            <li><a href="./lista_creditos.html">Listado de creditos extracurriculares</a></li>
+                            <li><a href="https://siia.uasnet.mx/padres/">Consulta académica para padres y tutores</a>
+                            </li>
                             <li><a href="#">Becas</a></li>
                             <li><a href="https://siia.uasnet.mx/alumnos/">Certificado de estudios</a></li>
                             <li><a href="./titulacion.html">Titulación</a></li>
-                            <li><a href="#">Pasos para solicitar exámenes extraordinarios</a></li>
+                            <li><a href="./pasos_extras.html">Pasos para solicitar exámenes extraordinarios</a></li>
                         </ul>
                     </li>
                     <li>
@@ -123,7 +113,8 @@
             <div class="main__container--bottom_dates">
                 <div class="dates">
                     <div class="main__container--bottom_dates--content">
-                        <a class="main__container--bottom_dates--content--float" onclick="myDateActive(1)" href="javascript:void(0);"><i class="fas fa-angle-down"  id="date-active-1"></i></a>
+                        <a class="main__container--bottom_dates--content--float" onclick="myDateActive(1)"
+                            href="javascript:void(0);"><i class="fas fa-angle-down" id="date-active-1"></i></a>
                         <div class="main__container--date">
                             <h1>22</h1>
                             <p>Viernes</p>
@@ -152,7 +143,8 @@
                 </div>
                 <div class="dates">
                     <div class="main__container--bottom_dates--content">
-                        <a class="main__container--bottom_dates--content--float" onclick="myDateActive(2)" href="javascript:void(0);"><i class="fas fa-angle-down"  id="date-active-2"></i></a>
+                        <a class="main__container--bottom_dates--content--float" onclick="myDateActive(2)"
+                            href="javascript:void(0);"><i class="fas fa-angle-down" id="date-active-2"></i></a>
                         <div class="main__container--date">
                             <h1>25</h1>
                             <p>Lunes</p>
@@ -181,7 +173,8 @@
                 </div>
                 <div class="dates">
                     <div class="main__container--bottom_dates--content">
-                        <a class="main__container--bottom_dates--content--float" onclick="myDateActive(3)" href="javascript:void(0);"><i class="fas fa-angle-down"  id="date-active-3"></i></a>
+                        <a class="main__container--bottom_dates--content--float" onclick="myDateActive(3)"
+                            href="javascript:void(0);"><i class="fas fa-angle-down" id="date-active-3"></i></a>
                         <div class="main__container--date">
                             <h1>02</h1>
                             <p>Lunes</p>

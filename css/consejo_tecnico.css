@@ -161,4 +161,8 @@
     .container__consejo--list{
         padding: 0;
     }
+
+    .container__consejo--element--image--float {
+        right: -20px;
+    }
 }

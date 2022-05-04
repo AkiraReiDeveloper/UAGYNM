@@ -7,12 +7,15 @@
     display: flex;
 }
 
-.gastro__header--image figure {
-    width: 520px;
-    height: auto;
+.gastro__header--image {
     position: absolute;
     left: 150px;
     bottom: -10px;
+}
+
+.gastro__header--image figure {
+    width: 520px;
+    height: auto;
 }
 
 .gastro__header--image figure>img {
@@ -21,10 +24,13 @@
     animation: fade-bottom 1.2s ease-out;
 }
 
-.gastro__header--title h1 {
+.gastro__header--title{
     position: absolute;
     top: 40%;
     right: 15%;
+}
+
+.gastro__header--title h1 {
     color: #FFFFFF;
     font-size: 5em;
 }
@@ -89,7 +95,6 @@
 
 .content__gastro--section img{
     width: 100%;
-    
 }
 
 .content__gastro--aside{
@@ -134,4 +139,115 @@
 .content__gastro--section--plan--right{
     width: 50%;
     margin-left: 25px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .gastro__header {
+        position: relative;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .gastro__header--image{
+        width: 100%;
+        height: 80%;
+        position: relative;
+        left: 0;
+        bottom: 0;
+    }
+    
+    .gastro__header--image figure {
+        position: relative;
+        left: 50%;
+        bottom: -10px;
+        width: 70%;
+        height: auto;
+        transform: translate(-50%, 0);
+    }
+    
+    .gastro__header--image figure>img {
+        width: 100%;
+        height: 100%;
+        animation: none;
+    }
+
+    .gastro__header--title{
+        top: 0;
+        left: 0;
+        height: 20%;
+        width: 100%;
+        position: relative;
+    }
+    
+    .gastro__header--title h1 {
+        font-size: 2em;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .gastro__header--one {
+        width: 60px;
+        height: 60px;
+        left: 10%;
+        bottom: 50%;
+    }
+    
+    .gastro__header--two {
+        width: 150px;
+        height: 150px;
+        right: 20%;
+        bottom: 20%;
+    }
+    
+    .gastro__header--three {
+        width: 50px;
+        height: 50px;
+        right: 10%;
+        bottom: 70%;
+    }
+    
+    .gastro__header--four {
+        width: 30px;
+        height: 30px;
+        top: 10%;
+        left: 20%;
+    }
+
+    .content__gastro{
+        padding: 10px 5px;
+    }
+    
+    .content__gastro--section{
+        width: 100%;
+        padding: 20px 15px;
+    }
+
+    .content__gastro--section h2{
+        font-size: 1rem;
+    }
+
+    .content__gastro--section h3{
+        font-size: .9rem;
+    }
+
+    .content__gastro--aside{
+        display: none;
+    }
+
+    .content__gastro--section--plan{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .content__gastro--section--plan--left{
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .content__gastro--section--plan--right{
+        width: 100%;
+        margin-left: 0;
+    }
 }
