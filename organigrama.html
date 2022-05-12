@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Unidad Académica de Gastronomía y Nutrición Mazatlán</title>
+    <link rel="icon" href="./assets/images/logog.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap"
@@ -21,8 +22,9 @@
 <body>
     <header class="header">
         <div class="head__contact">
-            <a class="head__contact--phone" href="#"><i class="fas fa-phone-alt"></i> Tel. 6688443355</a>
-            <a class="head__contact--mail" href="#"><i class="fas fa-envelope"></i>uagynm_uas@uas.edu.mx</a>
+            <a class="head__contact--phone" href="#"><i class="fas fa-phone-alt"></i> Tel. 6699540716</a>
+            <a class="head__contact--mail" href="#"><i class="fas fa-envelope"></i>gastronomia@uas.edu.mx</a>
+            <a href="https://www.facebook.com/uagmm"><i class="fab fa-facebook-square"></i>Facebook</a>
         </div>
         <nav class="navbar">
             <div class="navbar--title">
@@ -42,7 +44,12 @@
                         <ul class="navbar--options--sublist" id="sub-menu-1">
                             <li><a href="./historia.html#historia">Historia</a></li>
                             <li><a href="./historia.html#mision-vision">Misión y Visión</a></li>
-                            <li><a href="./normatividad.html">Normatividad</a></li>
+                            <li><a onclick="myNavbarSubList2(1)" href="javascript:void(0);">Normatividad</a>
+                                <ul class="navbar--options--sublist--sublist" id="sub-menu2-1">
+                                    <li><a href="http://sau.uas.edu.mx/normatividad.htm">Institucional</a></li>
+                                    <li><a href="./normatividad.html">Interna</a></li>
+                                </ul>
+                            </li>
                             <li><a href="./consejo_tecnico.html">Consejo Técnico</a></li>
                             <li><a href="./organigrama.html">Organigrama</a></li>
                             <li><a href="./infraestructura.html">Infraestructura</a></li>
@@ -63,7 +70,11 @@
                             <li><a href="./lista_creditos.html">Listado de creditos extracurriculares</a></li>
                             <li><a href="https://siia.uasnet.mx/padres/">Consulta académica para padres y tutores</a>
                             </li>
-                            <li><a href="#">Becas</a></li>
+                            <li><a onclick="myNavbarSubList2(2)" href="javascript:void(0);">Becas</a>
+                                <ul class="navbar--options--sublist--sublist" id="sub-menu2-2">
+                                    <li><a href="https://subes.becasbenitojuarez.gob.mx/">Becas del Gobierno Federal</a></li>
+                                </ul>
+                            </li>
                             <li><a href="https://siia.uasnet.mx/alumnos/">Certificado de estudios</a></li>
                             <li><a href="./titulacion.html">Titulación</a></li>
                             <li><a href="./pasos_extras.html">Pasos para solicitar exámenes extraordinarios</a></li>

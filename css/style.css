@@ -7,6 +7,7 @@
 body {
     font-family: 'Poppins', Courier, monospace;
     background-color: #fafafa;
+    overflow-x: hidden;
 }
 
 .header {

@@ -10,6 +10,7 @@ body {
 .navbar {
     position: fixed;
     top: 50px;
+    background-color: #022060;
 }
 
 .main__teacher__container--text {
