@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="Unidad academica de gastronomia y nutricion mazatlan, Unidad, Académica, Gastronomía, Nutrición, Mazatlán" />
+    <meta name="author" content="AkiraReiGamer" />
+    <title>Unidad Académica de Gastronomía y Nutrición Mazatlán</title>
+    <link rel="icon" href="./assets/images/logog.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gastronomia.css">
+    <link rel="stylesheet" href="./css/normal.css">
+    <link rel="stylesheet" href="./css/biblioteca.css">
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="head__contact">
+            <a class="head__contact--phone" href="#"><i class="fas fa-phone-alt"></i> Tel. 6699540716</a>
+            <a class="head__contact--mail" href="#"><i class="fas fa-envelope"></i>gastronomia@uas.edu.mx</a>
+            <a href="https://www.facebook.com/uagmm"><i class="fab fa-facebook-square"></i>Facebook</a>
+        </div>
+        <nav class="navbar">
+            <div class="navbar--title">
+                <div class="navbar--title--image">
+                    <img src="assets/images/logog.png" alt="">
+                </div>
+                <a href="index.html">
+                    <p>UAGYNM</p>
+                </a>
+            </div>
+            <div class="navbar--options">
+                <a class="navbar--options--menu" onclick="myNavbar()" href="javascript:void(0);"><i
+                        class="fas fa-bars"></i></a>
+                <ul class="navbar--options--list" id="menu">
+                    <li>
+                        <a onclick="myNavbarSubList(1)" href="javascript:void(0);">Unidad Académica</a>
+                        <ul class="navbar--options--sublist" id="sub-menu-1">
+                            <li><a href="./historia.html#historia">Historia</a></li>
+                            <li><a href="./historia.html#mision-vision">Misión y Visión</a></li>
+                            <li><a onclick="myNavbarSubList2(1)" href="javascript:void(0);">Normatividad</a>
+                                <ul class="navbar--options--sublist--sublist" id="sub-menu2-1">
+                                    <li><a href="http://sau.uas.edu.mx/normatividad.htm">Institucional</a></li>
+                                    <li><a href="./normatividad.html">Interna</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./consejo_tecnico.html">Consejo Técnico</a></li>
+                            <li><a href="./organigrama.html">Organigrama</a></li>
+                            <!--<li><a href="./infraestructura.html">Infraestructura</a></li>-->
+                            <li><a href="./directorio.html">Directorio</a></li>
+                            <li><a href="./biblioteca.html">Biblioteca</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a onclick="myNavbarSubList(2)" href="javascript:void(0);">Oferta Educativa</a>
+                        <ul class="navbar--options--sublist" id="sub-menu-2">
+                            <li><a href="./gastronomia.html">Gastronomía</a></li>
+                            <li><a href="./nutricion.html">Nutrición</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a onclick="myNavbarSubList(3)" href="javascript:void(0);">Alumnos</a>
+                        <ul class="navbar--options--sublist" id="sub-menu-3">
+                            <li><a href="https://siia.uasnet.mx/alumnos/">Sistema de alumnos</a></li>
+                            <li><a href="./lista_creditos.html">Listado de creditos extracurriculares</a></li>
+                            <li><a href="https://siia.uasnet.mx/padres/">Consulta académica para padres y tutores</a>
+                            </li>
+                            <li><a onclick="myNavbarSubList2(2)" href="javascript:void(0);">Becas</a>
+                                <ul class="navbar--options--sublist--sublist" id="sub-menu2-2">
+                                    <li><a href="https://subes.becasbenitojuarez.gob.mx/">Becas del Gobierno Federal</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="https://siia.uasnet.mx/alumnos/">Certificado de estudios</a></li>
+                            <li><a href="./titulacion.html">Titulación</a></li>
+                            <li><a href="./pasos_extras.html">Pasos para solicitar exámenes extraordinarios</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a onclick="myNavbarSubList(4)" href="javascript:void(0);">Docentes</a>
+                        <ul class="navbar--options--sublist" id="sub-menu-4">
+                            <li><a href="teachers.html">Planta docente</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a onclick="myNavbarSubList(5)" href="javascript:void(0);">Vinculación</a>
+                        <ul class="navbar--options--sublist" id="sub-menu-5">
+                            <li><a href="#">Practicas profecionales</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <article>
+        <div class="normal__header">
+            <div class="normal__header--one"></div>
+            <div class="normal__header--two"></div>
+            <div class="normal__header--three"></div>
+            <div class="normal__header--four"></div>
+            <div class="normal__header--title">
+                <h1>Biblioteca</h1>
+            </div>
+        </div>
+    </article>
+    <article class="content__gastro">
+        <section class="content__gastro--section">
+            <h2 id="informatica">Informática</h2>
+            <div class="books__list">
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/Conceptos_de_Informatica.jpg" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Conceptos_de_informática_Alberto_Prieto_Espinoza,_Beatriz_Prieto_Campos.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Conceptos_de_informática_Alberto_Prieto_Espinoza,_Beatriz_Prieto_Campos.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/introduccion_a_la_Informatica.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Introducción_a_la_informática_Alberto_Prieto,_Antonio_Lloris,_Juan_Carlos_Torres.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Introducción_a_la_informática_Alberto_Prieto,_Antonio_Lloris,_Juan_Carlos_Torres.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/sistemas_operativos.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Sistemas_operativos_Daniel_Sol_Llaven.pdf" target="_blank">Abrir <i
+                                class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Sistemas_operativos_Daniel_Sol_Llaven.pdf" download>Descargar <i
+                                class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+            <h2 id="derecho">Derecho y Sociales</h2>
+            <div class="books__list">
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/the_consulting_bible.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/The_Consulting_Bible_Alan_Weiss_John_Wiley_Sons_Inc_2011.PDF"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/The_Consulting_Bible_Alan_Weiss_John_Wiley_Sons_Inc_2011.PDF"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/aportes_y_transferencias.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Turismo_y_Teoria_de_Clusters,_las_potencialidades_de_la_localidad_de_monte_hermoso.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Turismo_y_Teoria_de_Clusters,_las_potencialidades_de_la_localidad_de_monte_hermoso.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/derecho_del_trabajo.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Derecho_del_trabajo.pdf" target="_blank">Abrir <i
+                                class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Derecho_del_trabajo.pdf" download>Descargar <i
+                                class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/Como_ganar_amigos_dale.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Cómo_ganar_amigos_e_influir_sobre_las_personas_Dale_Carnegie.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Cómo_ganar_amigos_e_influir_sobre_las_personas_Dale_Carnegie.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/secretaria_de_salud.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/NORMA_Oficial_Mexicana_NOM-251-SSA1-2009,_Prácticas_de_higiene_para_el_proceso_de_alimentos,_bebidas_o_suplementos_alimenticios.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/NORMA_Oficial_Mexicana_NOM-251-SSA1-2009,_Prácticas_de_higiene_para_el_proceso_de_alimentos,_bebidas_o_suplementos_alimenticios.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/Atlas_y_salud_del_clima.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Atlas_de_la_Salud_y_el_clima_Organización_Mundial_de_la_Salud_y_Organización_Meteorológica_Mundial_OMSOMM_2012.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Atlas_de_la_Salud_y_el_clima_Organización_Mundial_de_la_Salud_y_Organización_Meteorológica_Mundial_OMSOMM_2012.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/ley_federal_del_trabajo.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Ley_Federal_del_Trabajo_Congreso_de_los_Estados_Unidos_Mexicanos_2015.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Ley_Federal_del_Trabajo_Congreso_de_los_Estados_Unidos_Mexicanos_2015.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+            <h2 id="turismo">Turismo</h2>
+            <div class="books__list">
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/CONCEPTUALIZACIÓN,_ORIGEN_Y_EVOLUCIÓN_DEL_TURISMO.png"
+                            alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Conceptualizacion,_origen_y_evolucion_del_turismo.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Conceptualizacion,_origen_y_evolucion_del_turismo.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/Introduccion_al_turismo.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Introduccion_al_Turismo_Amparo_Sancho.pdf" target="_blank">Abrir <i
+                                class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Introduccion_al_Turismo_Amparo_Sancho.pdf" download>Descargar <i
+                                class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+            <h2 id="arquitectura">Arquitectura</h2>
+            <div class="books__list">
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/enciclopedia_de_la_arquitectura.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/ENCICLOPEDIA_DE_ARQUITECTURA_Volumen_9_Plazola,_Alfredo_Plazola_Editores.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/ENCICLOPEDIA_DE_ARQUITECTURA_Volumen_9_Plazola,_Alfredo_Plazola_Editores.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/Arte_de_proyectar_en_arquitectura.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/ARTE_DE_PROYECTAR_EN_ARQUITECTURA_Neufert,_Ernst_ARTE_DE_PROYECTAR_EN_ARQUITECTURA_Editorial GG_Editorial_GG.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/ARTE_DE_PROYECTAR_EN_ARQUITECTURA_Neufert,_Ernst_ARTE_DE_PROYECTAR_EN_ARQUITECTURA_Editorial GG_Editorial_GG.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+            <h2 id="administracion">Administración</h2>
+            <div class="books__list">
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/Organizacion_de_eventos.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Organizacion_de_eventos.pdf" target="_blank">Abrir <i
+                                class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Organizacion_de_eventos.pdf" download>Descargar <i
+                                class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/manual_de_meseros_y_capitanes.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/manual-de-meseros-y-capitanes-una-guia-paso-a-paso.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/manual-de-meseros-y-capitanes-una-guia-paso-a-paso.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/LA_CONSULTORIA_DE_EMPRESAS_GUIA_PARA_LA_PROFESIoN.png"
+                            alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/La_consultoría_de_empresas_guía_para_la_profesión_Ginebra,_Oficina_Internacional_del_Trabajo,_tercera_edición,_1997.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/La_consultoría_de_empresas_guía_para_la_profesión_Ginebra,_Oficina_Internacional_del_Trabajo,_tercera_edición,_1997.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/Administracion_de_Alimentos_de_Colectividades.png"
+                            alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Administracion_de_Alimentos_de_Colectividades_y_Servicios_de_Salud.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Administracion_de_Alimentos_de_Colectividades_y_Servicios_de_Salud.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/congresos_convenciones_y_reuniones.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Congresos,_Convencionesy_Reuniones_Organizacion_y_Operacion de Eventos_Especiales.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Congresos,_Convencionesy_Reuniones_Organizacion_y_Operacion de Eventos_Especiales.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/Administracion_exitosa_de_proyectos.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Administración_exitosa_de_proyectos,_edición_en_español_GIDO,_J,_Clements,_J.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Administración_exitosa_de_proyectos,_edición_en_español_GIDO,_J,_Clements,_J.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/consulteria_administrativa_e_inteligencia.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Consultoría_Administrativa_e_Inteligencia_De_Negocios.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Consultoría_Administrativa_e_Inteligencia_De_Negocios.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+            <h2 id="gastronomia">Gastronomía</h2>
+            <div class="books__list">
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/Building_a_common_vision_for_sustainable_food_and_agriculture.png"
+                            alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Building_a_common_vision_for_sustainable_food_and_agriculture_Organización_de_las_Naciones_Unidas_para_la_Alimentación_y_la_Agricultura_FAO_2014.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Building_a_common_vision_for_sustainable_food_and_agriculture_Organización_de_las_Naciones_Unidas_para_la_Alimentación_y_la_Agricultura_FAO_2014.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+            <h2 id="nutricion">Nutrición</h2>
+            <div class="books__list">
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/Foro_Global_sobre_Seguridad_Alimentaria_y_Nutricion.png"
+                            alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Foro_Global_sobre_Seguridad_Alimentaria_y_Nutrición_Comité_permanente_de_nutrición_del_sistema_de_las_Naciones_Unidas_ONU_2017.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Foro_Global_sobre_Seguridad_Alimentaria_y_Nutrición_Comité_permanente_de_nutrición_del_sistema_de_las_Naciones_Unidas_ONU_2017.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+            <h2 id="quimica">Quimica</h2>
+            <div class="books__list">
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/preelaboracion_de_alimentos.png" alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Preelaboracion_y_conservacion_de_los_alimentos.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Preelaboracion_y_conservacion_de_los_alimentos.pdf" download>Descargar
+                            <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="books__list__book">
+                    <figure>
+                        <img src="./assets/images/books_covers/principios_de_quimica_los_caminos_del_descubrimiento.png"
+                            alt="">
+                    </figure>
+                    <div class="books__list__book__button">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="books__list__book__button__float">
+                        <a href="./assets/books/Principios_de_Química_Los_caminos_del_descubrimiento_Atkins,_Jones.pdf"
+                            target="_blank">Abrir <i class="fas fa-external-link-alt"></i></a>
+                        <a href="./assets/books/Principios_de_Química_Los_caminos_del_descubrimiento_Atkins,_Jones.pdf"
+                            download>Descargar <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside class="content__gastro--aside">
+            <a href="#informatica">Informática<i class="fas fa-angle-right"></i></a>
+            <a href="#derecho">Derecho y Sociales<i class="fas fa-angle-right"></i></a>
+            <a href="#turismo">Turismo<i class="fas fa-angle-right"></i></a>
+            <a href="#administracion">Administración<i class="fas fa-angle-right"></i></a>
+            <a href="#arquitectura">Arquitectura<i class="fas fa-angle-right"></i></a>
+            <a href="#gastronomia">Gastronomía<i class="fas fa-angle-right"></i></a>
+            <a href="#nutricion">Nutrición<i class="fas fa-angle-right"></i></a>
+            <a href="#quimica">Quimica<i class="fas fa-angle-right"></i></a>
+        </aside>
+    </article>
+    <footer>
+        <div class="footer">
+            <h5>Unidad Académica de Gastronomía y Nutrición Mazatlán</h5>
+        </div>
+    </footer>
+</body>
+
+</html>

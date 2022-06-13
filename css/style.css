@@ -245,7 +245,7 @@ body {
 }
 
 .main__container--text {
-    width: 45%;
+    width: 50%;
     position: absolute;
     top: 25%;
     color: #FFFFFF;
@@ -254,15 +254,17 @@ body {
 
 .main__container--text--title {
     margin-bottom: 30px;
+    font-size: 1.5rem;
 }
 
 .main__container--text--subtitle {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 30px;
 }
 
 .main__container--text--info {
     margin-bottom: 30px;
+    font-size: 1.5rem;
 }
 
 .main__container--text--button {

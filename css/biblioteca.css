@@ -1,0 +1,70 @@
+.content__gastro--section h2{
+    padding-top: 10px;
+    color: #213E7B;
+}
+
+.books__list{
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.books__list__book{
+    width: 19%;
+    margin: .5%;
+    position: relative;
+}
+
+.books__list__book figure{
+    width: 100%;
+    height: fit-content;
+}
+
+.books__list__book figure > img{
+    width: 100%;
+    height: fit-content;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.16);
+}
+
+.books__list__book__button{
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+}
+
+.books__list__book__button > i{
+    font-size: 2rem;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    color: #213E7B;
+}
+
+.books__list__book__button__float{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    background: #213E7B;
+    padding: 10px;
+    border-radius: 2px;
+    bottom: 0;
+    left: 101%;
+    z-index: 1;
+}
+
+.books__list__book__button:hover ~ .books__list__book__button__float{
+    display: flex;
+}
+
+.books__list__book__button__float:hover{
+    display: flex;
+}
+
+.books__list__book__button__float a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.books__list__book__button__float a i{
+    margin-left: 10px;
+}
