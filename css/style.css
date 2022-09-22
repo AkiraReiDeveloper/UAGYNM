@@ -214,6 +214,7 @@ body {
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .main__container--date h1 {
@@ -228,12 +229,12 @@ body {
 }
 
 .main__container--date_information--hour {
-    color: #BE9109;
+    color: #FFFFFF;
     font-size: 1rem;
 }
 
 .main__container--date_information--title {
-    color: #FFFFFF;
+    color: #BE9109;
     font-size: 1.1rem;
 }
 
